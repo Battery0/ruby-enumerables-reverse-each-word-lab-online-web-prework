@@ -6,7 +6,7 @@ end
 
 
 
-#This method can be further refined to 'chain' methods together. This creates cleaner, more succinct and understandable code
+#This method can be further refined to 'chain' methods together. This creates cleaner, succinct and better understandable code
 
 def reverse_each_word(string)
   string.split.collect { |element| element.reverse }.join(" ")
